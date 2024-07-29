@@ -32,27 +32,27 @@
 
 Car class - 자동차 (모든 패키지에서 접근 가능)
 
-접근제어	형식 / 반환형식	이름	설명
-객체 내부	문자열		vin	차량번호
-객체 내부	문자열		color	색상
-객체 내부	논리형		isStart	시동 상태
+접근제어		형식 / 반환형식	이름	설명
+객체 내부		문자열		vin	차량번호
+객체 내부		문자열		color	색상
+객체 내부		논리형		isStart	시동 상태
  
 
 Train class - 열차 (모든 패키지에서 접근 가능)
 
-접근제어	형식 / 반환형식	이름	설명
-객체 내부	문자열	trainNumber	열차번호
-객체 내부	문자열	departureStation	출발역
-객체 내부	문자열	arrivalStation	도착역
-객체 내부	논리형	isStart	시동 상태
+접근제어		형식 / 반환형식	이름		설명
+객체 내부		문자열		trainNumber	열차번호
+객체 내부		문자열		departureStation	출발역
+객체 내부		문자열		arrivalStation	도착역
+객체 내부		논리형		isStart		시동 상태
  
 
 ManualCar class - 수동 변속기 자동차 (모든 패키지에서 접근 가능)
 
 Car class +
-접근제어	형식 / 반환형식	이름	설명
-객체 내부	정수	gear	기어 상태
-모든 패키지	없음	setGear	기어를 입력 받아 기어 변경
+접근제어		형식 / 반환형식	이름	설명
+객체 내부		정수		gear	기어 상태
+모든 패키지	없음		setGear	기어를 입력 받아 기어 변경
  
 
 AutomaticCar class - 자동 변속기 자동차 (모든 패키지에서 접근 가능)
@@ -64,21 +64,21 @@ PassengerTrain class - 여객 열차 (모든 패키지에서 접근 가능)
 
 Train class +
 
-접근제어	형식 / 반환형식	이름	설명
-객체 내부	정수	passengerCount	탑승객 수
+접근제어		형식 / 반환형식	이름		설명
+객체 내부		정수		passengerCount	탑승객 수
  
 
 FreightTrain class - 화물 열차 (모든 패키지에서 접근 가능)
 
 Train class +
 
-접근제어	형식 / 반환형식	이름	설명
-객체 내부	실수	cargoWeight	화물 무게
+접근제어		형식 / 반환형식	이름		설명
+객체 내부		실수		cargoWeight	화물 무게
  
 
 Vehicle interface - 탈것 (모든 패키지에서 접근 가능)
 
-접근제어	반환형식	이름	입력형식
-모든 패키지	없음	accelerate	없음
-모든 패키지	없음	stop	없음
-모든 패키지	없음	setStart	없음
+접근제어		반환형식		이름		입력형식
+모든 패키지	없음		accelerate		없음
+모든 패키지	없음		stop		없음
+모든 패키지	없음		setStart		없음
