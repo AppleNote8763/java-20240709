@@ -1,8 +1,6 @@
-package test;
+package t1;
 
-import java.util.Iterator;
-
-public class Tset1 {
+public class T1 {
 
 	public static void main(String[] args) {
 		// 5 x 5 배열
@@ -78,4 +76,5 @@ public class Tset1 {
 		
 		
 	}
+	
 }
