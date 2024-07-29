@@ -14,9 +14,9 @@ public class Solution {
 	public int[] solution(int[] array, int[][] queries) {
 		
 		for (int i = 0; i < queries.length; i++) {
-			for (int j = 0; j < 2; j++) {
-				array[queries[i][j]]++;
-			}
+			for (int j = queries[i][0]; j < queries[i][1] +1; j++) {
+                array[j]++;
+            }
 		}
 		return array;
 	}
