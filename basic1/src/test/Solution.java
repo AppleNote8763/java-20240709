@@ -11,15 +11,17 @@ public class Solution {
 		return -1;
 	}
 	
+	
 	public int[] solution(int[] array, int[][] queries) {
 		
 		for (int i = 0; i < queries.length; i++) {
-			for (int j = queries[i][0]; j < queries[i][1] +1; j++) {
+			for (int j = queries[i][0]; j < queries[i][1] + 1; j++) {
                 array[j]++;
             }
 		}
 		return array;
 	}
+	
 	
 	public int solution(int number) {
 		int sum = 0;
@@ -34,5 +36,6 @@ public class Solution {
 			return sum;
 		}
 	}
+	
 	
 }
